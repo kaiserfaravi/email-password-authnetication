@@ -6,6 +6,7 @@ const Header = () => {
    <li><NavLink to='/'>home</NavLink></li>
    <li><NavLink to='/login'>Log in</NavLink></li>
    <li><NavLink to='/register'>Register</NavLink></li>
+   <li><NavLink to='/hero'>Hero Register</NavLink></li>
    </>
     return (
         <div className="navbar bg-base-100">
