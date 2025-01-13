@@ -8,6 +8,7 @@ const Register = () => {
         console.log(email,pass);
         console.log('form submitting');
 
+
     }
     return (
         <div className='border'>
@@ -21,6 +22,8 @@ const Register = () => {
                 <input className='mb-4 w-3/4 btn btn-secondary' type="submit" value="register" />
             </form>
             </div>
+            {/* form validation not done yet
+             */}
         </div>
     );
 };
